@@ -10,10 +10,10 @@
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 </head>
 
-<body class="bg-black">
-    <div class=" flex container w-[80%] m-auto  bg-black text-white">
-        <div class="first  w-[45%]      ">
-            <div class="sidebar sticky top-0  px-4  ">
+<body class="bg-black ls:w-[80%] ">
+    <div class=" flex container  w-full m-auto  bg-black text-white">
+        <div class="first  ls:w-[45%] sm:hidden sm:w-fit   ">
+            <div class="sidebar sticky top-0  sm:w-fit px-4  ">
                 <div class="logo m-auto  invert rounded-3xl border-black w-fit hover:bg-slate-300  my-3 p-2">
                     <svg viewBox="0 0 24 24" aria-hidden="true"
                         class=" w-8 r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-lrsllp r-1nao33i r-16y2uox r-8kz0gk">
@@ -474,34 +474,38 @@
             <div class="followbox border p-3 rounded-2xl border-slate-600">
                 <h1 class="text-xl font-bold pb-1">Who to follow</h1>
                 <div class=" followcard hover:bg-gray-900 flex justify-between items-center  p-3">
-                    <img class="w-10 h-10 justify-center items-center rounded-full" src="./img/pfp.png" alt="">
+                    <img class="w-10 h-10 justify-center items-center rounded-full"
+                        src="https://pbs.twimg.com/profile_images/1510543506804449286/oaqIjZ6r_400x400.jpg" alt="">
                     <div class="">
-                        <p class="hover:underline">SHIVAM KUMAR</p>
-                        <p class="text-gray-400">@spiky_here</p>
+                        <p class="hover:underline">OSHO Times Internat</p>
+                        <p class="text-gray-400 text-[12px]">@OSHOTimesInternational_</p>
                     </div>
                     <button class="subbtn bg-white py-1.5 px-6 my-2 rounded-full text-black "> Follow</button>
                 </div>
                 <div class=" followcard hover:bg-gray-900 flex justify-between items-center  p-3">
-                    <img class="w-10 h-10 justify-center items-center rounded-full" src="./img/pfp.png" alt="">
+                    <img class="w-10 h-10 justify-center items-center rounded-full"
+                        src="https://pbs.twimg.com/profile_images/1864307046205521920/IFTdGJU__400x400.png" alt="">
                     <div class="">
-                        <p class="hover:underline">SHIVAM KUMAR</p>
-                        <p class="text-gray-400">@spiky_here</p>
+                        <p class="hover:underline">GOL Linhas Aéreas</p>
+                        <p class="text-gray-400 text-[12px]">@GOLLinhasAéreas</p>
                     </div>
                     <button class="subbtn bg-white py-1.5 px-6 my-2 rounded-full text-black "> Follow</button>
                 </div>
                 <div class=" followcard hover:bg-gray-900 flex justify-between items-center  p-3">
-                    <img class="w-10 h-10 justify-center items-center rounded-full" src="./img/pfp.png" alt="">
+                    <img class="w-10 h-10 justify-center items-center rounded-full"
+                        src="https://pbs.twimg.com/profile_images/1510543506804449286/oaqIjZ6r_400x400.jpg" alt="">
                     <div class="">
                         <p class="hover:underline">SHIVAM KUMAR</p>
-                        <p class="text-gray-400">@spiky_here</p>
+                        <p class="text-gray-400 text-[12px]">@spiky_here</p>
                     </div>
                     <button class="subbtn bg-white py-1.5 px-6 my-2 rounded-full text-black "> Follow</button>
                 </div>
                 <div class=" followcard hover:bg-gray-900 flex justify-between items-center  p-3">
-                    <img class="w-10 h-10 justify-center items-center rounded-full" src="./img/pfp.png" alt="">
+                    <img class="w-10 h-10 justify-center items-center rounded-full"
+                        src="https://pbs.twimg.com/profile_images/1635717102714896384/NWx-_ceR_400x400.jpg" alt="">
                     <div class="">
-                        <div class="hover:underline">SHIVAM KUMAR</div>
-                        <div class="text-gray-400">@spiky_here</div>
+                        <div class="hover:underline">Herbalife</div>
+                        <div class="text-gray-400 text-[12px]">@Herbalife_</div>
                     </div>
                     <button class="subbtn bg-white py-1.5 px-6 my-2 rounded-full text-black "> Follow</button>
                 </div>
@@ -510,24 +514,21 @@
                 </div>
 
             </div>
-            <div class="flex items-center justify-center text-gray-400 text-[13px] py-4 whitespace-nowrap">
-                <a href="#" class="inline-flex items-center pr-2 border-r border-gray-600 hover:underline">
-                    Terms of Service
-                </a>
-                <a href="#" class="inline-flex items-center px-2 border-r border-gray-600 hover:underline">
-                    Privacy Policy
-                </a>
-                <a href="#" class="inline-flex items-center px-2 border-r border-gray-600 hover:underline">
-                    Cookie Policy
-                </a>
-                <a href="#" class="inline-flex items-center px-2 hover:underline">
-                    More …
-                </a>
-                <span class="inline-flex items-center pl-2">© 2025 X Corp.</span>
-            </div>
+            <div class=" ">
+                <div class="flex   text-gray-400 text-[13px] pt-4 ">
+                    <div class="border-r p-1   border-gray-500 text-[12px]">Term and Service</div>
+                    <div class="border-r p-1  border-gray-500 text-[12px]">Privacy Policy</div>
+                    <div class="border-r p-1  border-gray-500 text-[12px]">cookie POlicy </div>
+                </div>
+                <div class="flex   text-gray-400 text-[13px] ">
+                    <div class="p-1   border-gray-500 text-[12px]">More...© 2025 X Corp.</div>
+                    
+                </div>
 
+            </div>
         </div>
     </div>
+
     <script type="module" src="./main.js"></script>
 
 </html>
